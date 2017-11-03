@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:weightSum="1">
+
+
+    <TextView
+        android:id="@+id/tv1"
+        android:layout_width="380dp"
+        android:layout_height="30dp"
+        android:text="@string/intro1"
+        android:fontFamily="serif"
+        android:textStyle="bold"/>
+    <TextView
+        android:id="@+id/tv2"
+        android:layout_width="380dp"
+        android:layout_height="30dp"
+        android:text="@string/intro2"
+        android:fontFamily="serif"
+        android:layout_marginTop="30dp"
+        android:textStyle="bold"/>
+    <TextView
+        android:id="@+id/tv3"
+        android:layout_width="380dp"
+        android:layout_height="30dp"
+        android:text="@string/intro3"
+        android:fontFamily="serif"
+        android:layout_marginTop="60dp"
+        android:textStyle="bold"/>
+    <TextView
+        android:id="@+id/tv4"
+        android:layout_width="380dp"
+        android:layout_height="30dp"
+        android:text="@string/intro4"
+        android:fontFamily="serif"
+        android:layout_marginTop="90dp"
+        android:textStyle="bold"/>
+
+    <Button
+        android:id="@+id/button1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Try me!"
+        android:layout_below="@+id/et_name"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="45dp"
+        android:fontFamily="serif"
+        android:onClick="buttonClicked"/>
+
+    <TextView
+        android:id="@+id/tv5"
+        android:layout_width="70dp"
+        android:layout_height="20dp"
+        android:text="Name:"
+        android:layout_centerVertical="true"
+        android:layout_alignEnd="@+id/et_name"
+        android:layout_marginEnd="230dp"
+        android:textStyle="bold"
+        android:fontFamily="serif"
+        />
+
+    <EditText
+        android:id="@+id/et_name"
+        android:layout_width="250dp"
+        android:layout_height="30dp"
+        android:hint="enter here your first name"
+        android:background="@drawable/border1"
+        android:layout_centerVertical="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginEnd="50dp"
+        android:gravity="center"
+        android:fontFamily="serif"
+        />
+</RelativeLayout>
+
+

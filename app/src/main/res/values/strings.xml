@@ -1,3 +1,14 @@
 <resources>
     <string name="app_name">EX2</string>
+
+    <string name="intro1">This exercise demonstras the: </string>
+
+    <string name="intro2">Activity life-cycle callback methods,</string>
+
+    <string name="intro3">Views referencing. </string>
+
+    <string name="intro4">and On click handler </string>
+
+    <string name="t1">you need to enter a name befor clicking the button. </string>
+
 </resources>
